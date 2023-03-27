@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>FF Codiguin - Pagamento Via PIX</title>
-    <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+    <title>Samuray Serviços - Pagamento Via PIX</title>
+    <link href="img/samuray.favicon.png" rel="shortcut icon" type="image/png">
 
     <!--  -->
     <meta name="robots" content="noindex">
-    <meta name="description" content="Acesse o link para transferir pela conta do Nubank, ou outros bancos pelo Pix, para Davi Mateus Sobrinho Da Silva.">
-    <meta name="image" content="/images/gallywix/metaTag.png">
+    <meta name="description" content="Acesse o link para copiar o PIX ou usar o QR, para Ricardo Santos Pinheiro.">
+    <meta name="image" content="img/samuray.metatag.png">
     <!--  -->
-    <meta itemprop="name" content="Pague Davi Mateus Sobrinho Da Silva">
-    <meta itemprop="description" content="Acesse o link para transferir pela conta do Nubank, ou outros bancos pelo Pix, para Davi Mateus Sobrinho Da Silva.">
-    <meta itemprop="image" content="/images/gallywix/metaTag.png">
+    <meta itemprop="name" content="Pague Ricardo Santos Pinheiro">
+    <meta itemprop="description" content="Acesse o link para copiar o PIX ou usar o QR, para Ricardo Santos Pinheiro.">
+    <meta itemprop="image" content="img/samuray.metatag.png">
     <!--  -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Pague Davi Mateus Sobrinho Da Silva">
-    <meta name="twitter:description" content="Acesse o link para transferir pela conta do Nubank, ou outros bancos pelo Pix, para Davi Mateus Sobrinho Da Silva.">
+    <meta name="twitter:title" content="Pague Ricardo Santos Pinheiro">
+    <meta name="twitter:description" content="Acesse o link para copiar o PIX ou usar o QR, para Ricardo Santos Pinheiro.">
     <!--  -->
-    <meta property="og:title" content="Pague Davi Mateus Sobrinho Da Silva">
-    <meta property="og:description" content="Acesse o link para transferir pela conta do Nubank, ou outros bancos pelo Pix, para Davi Mateus Sobrinho Da Silva.">
-    <meta property="og:image" content="https://nubank.com.br/gallywix/images/metaTag.png">
-    <meta property="og:url" content="https://nubank.com.br/pagar/3yjk0/bpG8D41AZ8">
-    <meta property="og:site_name" content="Pague Davi Mateus Sobrinho Da Silva">
+    <meta property="og:title" content="Pague Ricardo Santos Pinheiro">
+    <meta property="og:description" content="Acesse o link para copiar o PIX ou usar o QR, para Ricardo Santos Pinheiro.">
+    <meta property="og:image" content="img/samuray.metatag.png">
+    <meta property="og:url" content="https://samuray.github.io">
+    <meta property="og:site_name" content="Pague Ricardo Santos Pinheiro">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:type" content="website">
     <meta property="fb:app_id" content="1401488693436528">
@@ -40,7 +40,7 @@
         /* Tachyons extensions */
     
         .npurple-1 {
-            color: #fa0351;
+            color: #000;
         }
     
         .n-grey-777 {
@@ -56,7 +56,7 @@
             width: 12em;
             height: 12em;
             mix-blend-mode: normal;
-            background: linear-gradient(6deg, #0100ff, #ff0000);
+            background: linear-gradient(50deg, #ff0000, #0007ff);
         }
     
         /* nu components */
@@ -76,8 +76,27 @@
             color: #ffffff;
             border-width: 1px;
             border-style: solid;
-            background: linear-gradient(85deg, #ff0000, #001eff);
+            background: linear-gradient(19deg, #ff0000, #0007ff);
             padding: 19px 32px;
+			}
+    
+        .enviar-button {
+            font-size: 14px;
+            cursor: pointer;
+            text-align: center;
+            user-select: none;
+            min-height: 56px;
+            display: inline-flex;
+            -webkit-box-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            align-items: center;
+			color: white;
+            background: linear-gradient(#5BD066, #27B43E);
+            outline: none;
+            width: 100%;
+			flex-direction: row-reverse;
+        
         }
     
         .copy-button {
@@ -92,11 +111,19 @@
             -webkit-box-align: center;
             align-items: center;
 			color: white;
-            background: linear-gradient(#0800ff, #ff0000);
+            background: linear-gradient(120deg, #ff0000, #0007ff);
             outline: none;
             width: 100%;
         }
-    
+		.whatsapp-icon::after {
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            padding-left: 10px;
+            vertical-align: top;
+            margin-top: 6px;
+            content: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z' fill='%23FFFFFF'/%3E%3C/svg%3E%0A");
+        }
         .copy-icon::after {
             display: inline-block;
             width: 22px;
@@ -116,7 +143,6 @@
             margin-top: -5px;
             content: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.1199 18.68C20.1199 19.8301 19.83 20.12 18.6799 20.12H7.15992C6.00984 20.12 5.71992 19.8301 5.71992 18.68V7.15998C5.71992 6.0099 6.00984 5.71998 7.15992 5.71998H18.6799C19.83 5.71998 20.1199 6.0099 20.1199 7.15998V18.68ZM4.75992 7.15998V16.28H3.31992C2.16984 16.28 1.87992 15.9901 1.87992 14.84V3.31998C1.87992 2.1699 2.16984 1.87998 3.31992 1.87998H14.8399C15.99 1.87998 16.2799 2.1699 16.2799 3.31998V4.75998H7.15992C5.47992 4.75998 4.75992 5.47998 4.75992 7.15998ZM18.6799 4.75998H17.2399V3.31998C17.2399 1.63998 16.5199 0.919983 14.8399 0.919983H3.31992C1.63992 0.919983 0.919922 1.63998 0.919922 3.31998V14.84C0.919922 16.52 1.63992 17.24 3.31992 17.24H4.75992V18.68C4.75992 20.36 5.47992 21.08 7.15992 21.08H18.6799C20.3599 21.08 21.0799 20.36 21.0799 18.68V7.15998C21.0799 5.47998 20.3599 4.75998 18.6799 4.75998Z' fill='%23820AD1'/%3E%3C/svg%3E%0A");
         }
-    
         .copied-icon::after {
             display: inline-block;
             width: 22px;
@@ -182,12 +208,7 @@
         @media screen and (min-width: 30em) {
             #qr-data {
                     color: white;
-                    background-color: #e31e31;
-                    background-image: -webkit-gradient(linear,left top,right top,from(#e31e31),to(#6c44c3));
-                    background: linear-gradient(6deg, #0100ff, #ff0000);
-                    -webkit-animation: Gradient 15s ease infinite;
-                    -moz-animation: Gradient 15s ease infinite;
-                    animation: Gradient 15s ease infinite;
+                    background: linear-gradient(129deg, #000dff, #ff0000);
                 }
     
             #qr-container {
@@ -209,7 +230,7 @@
                 color: #ffffff;
                 border-width: 1px;
                 border-style: solid;
-                border-color: #820AD1;
+                border-color: #6f6f6f;
                 width: 100%;
             }
     
@@ -281,24 +302,23 @@
 <div data-experiment-id="DhDTlKazSoCCBmSKsD-tZg" data-experiment-variant="0">
 <main class="flex flex-column flex-row-l mw8 center mt5 ph0 pb0">
     <div id="logo" class="fixed-l center">
-        <img src="img/favicon.png" alt="FF Codiguin">
+        <img src="img/samuray.logo.png" alt="Samuray Serviços" style="
+    width: 230px;
+">
     </div>
 
     <!-- LEFT SECTION -->
     <section class="fixed-l flex center pt6-l pt5 ph0-l ph3 measure-wide w-auto">
         <div class="flex flex-column justify-between mr6-l mb1">
             <div class="flex flex-column items-start">
-                <h1 class="npurple-1 f2-ns f3 tl-l tc lh-headline mb0-l mb3-m mb4 fw8">Transfira para Davi Mateus Sobrinho Da Silva.</h1>
-                <span  class="f6 tl-l tc n-grey-777 lh-copy measure ml0 mt4-l mh0-l mv4-m center pa3 bg-near-white br4">“ffcodiguin.blogspot.com/p/loja.html”</span>
-				
+                <h1 class="npurple-1 f2-ns f3 tl-l tc lh-headline mb0-l mb3-m mb4 fw8">Transfira para Ricardo Santos Pinheiro.</h1>
             </div>
-            <div class="fw9 mt3-l dn db-l">
-                <a href="https://ffcodiguin.blogspot.com/p/loja.html" class="copy-button db tc no-underline br3 fw6 ttu ttn-ns" style="
-    width: 255.66666px;
-">Ir pra Loja</a>
+            <div class="fw9 mt3-l dn db-l" style="border-radius: 15px;overflow: hidden;width: 250px;">
+                <a  href="#whatsapp" class="enviar-button whatsapp-icon no-underline" 
+				style="width: 255.66666px;">Enviar Comprovante</a>
             </div>
             <div class="mt4-l dn db-l b">
-                <a href="https://blog.nubank.com.br/centralpix" target="_blank" class="no-underline npurple-1">Como funciona o Pix? &gt;</a>
+                <a href="#comousar" class="no-underline npurple-1">Como funciona o Pix? &gt;</a>
             </div>
         </div>
     </section>
@@ -306,26 +326,25 @@
     <section class="flex-l dn w-50"></section>
 
     <!-- RIGHT SECTION -->
-	
     <section id="payment-info" class="f6 w-50-l w-80-ns center flex flex-column items-center tc mb5 mb7-l">
         <div id="qr-data" class="w-100 flex-ns flex-column pt4-ns pb4-ns ph5-ns ph3" style="border-radius: 15px;overflow: hidden;">
             <h3 class="f4 fw8 mb0">Use o QR Code do Pix para pagar</h3>
             <p class="mb4 ph5-ns">Abra o app em que vai fazer a transferência, escaneie a imagem ou cole o código do QR Code</p>
-              <canvas id="qr-container" class="ba pa2 br3 bw1 pa0-ns bw3-ns br3-ns center flex items-center justify-center overflow-hidden" height="500" width="500"></canvas>
+            <canvas id="qr-container" class="ba pa2 br3 bw1 pa0-ns bw3-ns br3-ns center flex items-center justify-center overflow-hidden" height="500" width="500"></canvas>
             <p class="f3">
             </p>
-            <div id="copy-code" class="copy-button copy-icon db tc no-underline br3 fw6 ttu ttn-ns" data-clipboard-text="00020126950014BR.GOV.BCB.PIX0136604e3bed-af56-4235-92c4-9a272b24acdb0233ffcodiguin.blogspot.comploja.html5204000053039865802BR5925Davi Mateus Sobrinho da S6009SAO PAULO61080540900062180514FFCodiguinLoja63044212" >Copiar código do QR Code</a>
+            <a id="copy-code" class="copy-button copy-icon db tc no-underline br3 fw6 ttu ttn-ns" data-clipboard-text="00020126580014BR.GOV.BCB.PIX013699961950-b164-44d8-aca4-ba9eda0d461752040000530398654040.005802BR5916Ricardo Pinheiro6005Belem62070503***6304F2DE">Copiar código do QR Code</a>
         </div>
         <div class="w-100 flex-ns flex-column ba-ns b--black-10 ph5-ns ph4 pt4-ns pt0 pb4">
             <p class="lh-copy tc center mb4 db-ns dn f5">Ou use <strong>a chave Pix</strong></p>
             <div class="mt3 db dn-ns b">
-                <a href="https://blog.nubank.com.br/centralpix" target="_blank" class="no-underline npurple-1">Como funciona o Pix? &gt;</a>
+                <a href="#comousar" class="no-underline npurple-1">Como funciona o Pix? &gt;</a>
             </div>
             <div class="flex flex-column flex-nowrap w-100 f6-ns bt-ns b--black-10 pt4-ns mt5 mt0-ns">
-               <div id="copy-alias" class="flex flex-row justify-between w-auto pb3" data-clipboard-text="604e3bed-af56-4235-92c4-9a272b24acdb">
+               <div id="copy-alias" class="flex flex-row justify-between w-auto pb3" data-clipboard-text="91980261024">
                    <span class="justify-start b tl">Chave Pix</span>
                    <span class="copy-icon-alias">
-                        <span class="justify-end b tr npurple-1" style="overflow: hidden; text-overflow: ellipsis;">Chave Aleatória</span>
+                        <span class="justify-end b tr npurple-1" style="overflow: hidden; text-overflow: ellipsis;">Número Celular</span>
                         <div class="tooltip">
                             <span id="tooltiptext" class="tooltiptext">Copiado!</span>
                         </div>
@@ -333,31 +352,27 @@
                </div>
                 <div class="flex flex-row justify-between w-auto pb3">
                     <span class="justify-start b tl">Nome</span>
-                    <span class="justify-end tr">Davi Mateus Sobrinho Da Silva</span>
+                    <span class="justify-end tr">Ricardo Santos Pinheiro</span>
                 </div>
                 <div class="flex flex-row justify-between w-auto pb3">
                     <span class="justify-start b tl">CPF</span>
-                    <span class="justify-end tr">•••.094.802-••</span>
+                    <span class="justify-end tr">•••.650.632-••</span>
                 </div>
                 <div class="flex flex-row justify-between w-auto pb3">
                     <span class="justify-start b tl">Banco</span>
-                    <span class="justify-end tr">260 - Nu Pagamentos S.A. - Instituição de Pagamento</span>
-                </div>
-                <div class="flex flex-row justify-between w-auto pb3">
-                    <span class="justify-start b tl">Identificador</span>
-                    <span class="justify-end tr">FFCodiguinLoja</span>
+                    <span class="justify-end tr">MERCADO PAGO IP LTDA.</span>
                 </div>
             </div>
         </div>
         <div class="mt4-ns dn-l center pa3-5 lh-solid b f5 fw8" style="border-radius: 15px;overflow: hidden;">
-            <a class="db cta-button tc no-underline" href="https://ffcodiguin.blogspot.com/p/loja.html" >Ir pra Loja</a>
+			<a class="enviar-button whatsapp-icon no-underline" style=" width: 200px; "  href="#whatsapp" >Enviar Comprovante</a>
         </div>
     </section>
 </main>
 </div>
 
 <footer>
-    <input type="hidden" id="brcode" value="00020126950014BR.GOV.BCB.PIX0136604e3bed-af56-4235-92c4-9a272b24acdb0233ffcodiguin.blogspot.comploja.html5204000053039865802BR5925Davi Mateus Sobrinho da S6009SAO PAULO61080540900062180514FFCodiguinLoja63044212">
+    <input type="hidden" id="brcode" value="00020126580014BR.GOV.BCB.PIX013699961950-b164-44d8-aca4-ba9eda0d461752040000530398654040.005802BR5916Ricardo Pinheiro6005Belem62070503***6304F2DE">
     <script src="pix.files/qrious.min.js.download"></script>
     <script src="pix.files/clipboard.min.js.download"></script>
     <script type="text/javascript">
